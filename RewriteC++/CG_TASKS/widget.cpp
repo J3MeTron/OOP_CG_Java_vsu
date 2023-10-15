@@ -11,6 +11,7 @@ Widget::Widget(QWidget *parent) :
 
     scene = new QGraphicsScene();   // Инициализируем графическую сцену
     triangle = new Triangle(QPoint(0,-50),QPoint(50,50),QPoint(-50,50));
+    grad = new TriangleGrad(QPoint(0,-50),QPoint(50,50),QPoint(-50,50));
     ui->graphicsView->setScene(scene);  // Устанавливаем графическую сцену в graphicsView
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);    // Устанавливаем сглаживание
     ui->graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff); // Отключаем скроллбар по вертикали
@@ -21,8 +22,8 @@ Widget::Widget(QWidget *parent) :
     //scene->addItem(triangle);   // Добавляем на сцену треугольник
     //triangle->setPos(0,0);
 
-    scene->addItem(triangle);   // Добавляем на сцену треугольник
-    triangle->setPos(0,0);
+    scene->addItem(grad);   // Добавляем на сцену треугольник
+    grad->setPos(0,0);
     // Устанавливаем треугольник в центр сцены
 
 

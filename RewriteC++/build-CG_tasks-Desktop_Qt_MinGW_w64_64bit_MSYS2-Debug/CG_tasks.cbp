@@ -144,6 +144,12 @@
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h">
 			<Option target="CG_tasks"/>
 		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h">
+			<Option target="CG_tasks"/>
+		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>

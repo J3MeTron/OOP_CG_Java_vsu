@@ -261,6 +261,30 @@ triangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
 
+trianglegrad.obj: trianglegrad.cpp.obj
+.PHONY : trianglegrad.obj
+
+# target to build an object file
+trianglegrad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj
+.PHONY : trianglegrad.cpp.obj
+
+trianglegrad.i: trianglegrad.cpp.i
+.PHONY : trianglegrad.i
+
+# target to preprocess a source file
+trianglegrad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.i
+.PHONY : trianglegrad.cpp.i
+
+trianglegrad.s: trianglegrad.cpp.s
+.PHONY : trianglegrad.s
+
+# target to generate assembly for a file
+trianglegrad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.s
+.PHONY : trianglegrad.cpp.s
+
 widget.obj: widget.cpp.obj
 .PHONY : widget.obj
 
@@ -310,6 +334,9 @@ help:
 	@echo ... triangle.obj
 	@echo ... triangle.i
 	@echo ... triangle.s
+	@echo ... trianglegrad.obj
+	@echo ... trianglegrad.i
+	@echo ... trianglegrad.s
 	@echo ... widget.obj
 	@echo ... widget.i
 	@echo ... widget.s

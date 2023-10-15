@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CG_tasks.dir/mainwindow.cpp.obj.d"
   "CMakeFiles/CG_tasks.dir/triangle.cpp.obj"
   "CMakeFiles/CG_tasks.dir/triangle.cpp.obj.d"
+  "CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj"
+  "CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj.d"
   "CMakeFiles/CG_tasks.dir/widget.cpp.obj"
   "CMakeFiles/CG_tasks.dir/widget.cpp.obj.d"
   "CG_tasks_autogen"

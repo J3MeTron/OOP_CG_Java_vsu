@@ -283,4 +283,7 @@ CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtWidgets/qgraphicsitem.h \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
- C:/msys64/mingw64/include/QtGui/qpainterpath.h
+ C:/msys64/mingw64/include/QtGui/qpainterpath.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h \
+ C:/msys64/mingw64/include/QtCore/QPoint \
+ C:/msys64/mingw64/include/QtCore/qpoint.h

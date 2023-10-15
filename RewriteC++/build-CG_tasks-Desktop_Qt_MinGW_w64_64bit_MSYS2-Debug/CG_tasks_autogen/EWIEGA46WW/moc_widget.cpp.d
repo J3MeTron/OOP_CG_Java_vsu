@@ -1,5 +1,6 @@
 D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CG_tasks_autogen/EWIEGA46WW/moc_widget.cpp: D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.h \
   D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CG_tasks_autogen/moc_predefs.h \
+  C:/msys64/mingw64/include/QtCore/QPoint \
   C:/msys64/mingw64/include/QtCore/qalgorithms.h \
   C:/msys64/mingw64/include/QtCore/qarraydata.h \
   C:/msys64/mingw64/include/QtCore/qatomic.h \
@@ -271,4 +272,5 @@ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_
   C:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/msys64/mingw64/x86_64-w64-mingw32/include/wchar.h \
   D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/drawable.h \
-  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h \
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h

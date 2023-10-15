@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/main.cpp" "CMakeFiles/CG_tasks.dir/main.cpp.obj" "gcc" "CMakeFiles/CG_tasks.dir/main.cpp.obj.d"
   "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.cpp" "CMakeFiles/CG_tasks.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/CG_tasks.dir/mainwindow.cpp.obj.d"
   "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.cpp" "CMakeFiles/CG_tasks.dir/triangle.cpp.obj" "gcc" "CMakeFiles/CG_tasks.dir/triangle.cpp.obj.d"
+  "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.cpp" "CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj" "gcc" "CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj.d"
   "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.cpp" "CMakeFiles/CG_tasks.dir/widget.cpp.obj" "gcc" "CMakeFiles/CG_tasks.dir/widget.cpp.obj.d"
   )
 

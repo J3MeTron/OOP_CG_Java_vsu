@@ -276,6 +276,9 @@ CMakeFiles/CG_tasks.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
  C:/msys64/mingw64/include/QtGui/qpainterpath.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h \
+ C:/msys64/mingw64/include/QtCore/QPoint \
+ C:/msys64/mingw64/include/QtCore/qpoint.h \
  C:/msys64/mingw64/include/QtWidgets/QApplication \
  C:/msys64/mingw64/include/QtWidgets/qapplication.h \
  C:/msys64/mingw64/include/QtCore/qcoreapplication.h \

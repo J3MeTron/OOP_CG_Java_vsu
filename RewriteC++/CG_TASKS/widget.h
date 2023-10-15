@@ -5,6 +5,7 @@
 #include <QGraphicsScene>
 
 #include <triangle.h>
+#include <trianglegrad.h>
 
 namespace Ui {
 class Widget;
@@ -22,6 +23,7 @@ private:
     Ui::Widget       *ui;
     QGraphicsScene   *scene;     // Объявляем графическую сцену
     Triangle         *triangle;
+    TriangleGrad     *grad;
 };
 
 #endif // WIDGET_H

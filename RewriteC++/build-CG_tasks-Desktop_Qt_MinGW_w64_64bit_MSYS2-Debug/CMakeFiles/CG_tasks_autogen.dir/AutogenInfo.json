@@ -98,6 +98,12 @@
 			null
 		],
 		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h",
+			"MU",
+			"EWIEGA46WW/moc_trianglegrad.cpp",
+			null
+		],
+		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -173,6 +179,11 @@
 		],
 		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.cpp",
 			"MU",
 			null
 		],
