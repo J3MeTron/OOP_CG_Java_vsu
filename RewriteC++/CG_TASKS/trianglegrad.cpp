@@ -5,45 +5,87 @@
 
 #define roundf(x) floor(x + 0.5f)
 
-TriangleGrad::TriangleGrad(QPoint p1, QPoint p2, QPoint p3):
+TriangleGrad::TriangleGrad(QPoint p1, QPoint p2, QPoint p3, QColor c1,QColor c2,QColor c3):
     point1(p1),
     point2(p2),
-    point3(p3)
+    point3(p3),
+    color1(c1),
+    color2(c2),
+    color3(c3)
 {
 
 }
 
+TriangleGrad::~TriangleGrad()
+{
+
+}
+
+QRectF TriangleGrad::boundingRect() const
+{
+    return QRectF(-25,-40,50,80);   // Ограничиваем область, в которой лежит треугольник
+}
 
 inline void mySwap(int &a, int &b)
 {
-    int t;
-    t = a;
+    int t = a;
     a = b;
     b = t;
 }
 
-inline void myQswap(QPoint a, QPoint b)
-{
-    QPoint t;
-    t = a;
+void myQswap(QPoint &a, QPoint &b) {
+    QPoint temp = a;
     a = b;
-    b = t;
+    b = temp;
 }
+
+void myCswap(QColor &a, QColor &b) {
+    QColor temp = a;
+    a = b;
+    b = temp;
+}
+
+int interpolate(int start, int end, int current, int startRange, int endRange)
+{
+    if (current <= startRange) {
+        return start;
+    }
+    if (current >= endRange) {
+        return end;
+    }
+
+    double t = static_cast<double>(current - startRange) / (endRange - startRange);
+    int result = start + static_cast<int>(t * (end - start));
+    return result;
+}
+
+QColor interpolateColor(const QColor &startColor, const QColor &endColor, int current, int start, int end)
+{
+    int r = interpolate(startColor.red(), endColor.red(), current, start, end);
+    int g = interpolate(startColor.green(), endColor.green(), current, start, end);
+    int b = interpolate(startColor.blue(), endColor.blue(), current, start, end);
+    return QColor(r, g, b);
+}
+
 
 void TriangleGrad::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     // Упорядочиваем точки p1(x1, y1),
     // p2(x2, y2), p3(x3, y3)
+    int test = point2.ry();
     if (point2.ry() < point1.ry()) {
         myQswap(point1, point2);
+        myCswap(color1, color2);
     } // точки p1, p2 упорядочены
     if (point3.ry() < point1.ry()) {
         myQswap(point1, point3);
+        myCswap(color1, color3);
     } // точки p1, p3 упорядочены
     // теперь p1 самая верхняя
     // осталось упорядочить p2 и p3
     if (point2.ry() > point3.ry()) {
-        myQswap(point2, point3);;
+        myQswap(point2, point3);
+        myCswap(color2, color3);
     }
 
     // приращения по оси x для трёх сторон
@@ -95,18 +137,27 @@ void TriangleGrad::paint(QPainter *painter, const QStyleOptionGraphicsItem *opti
     if (dx13 > dx12)
     {
         mySwap(dx13, dx12);
+        myCswap(color1, color2);
     }
 
     // растеризуем верхний полутреугольник
-    for (int i = point1.ry(); i < point2.ry(); i++){
-        // рисуем горизонтальную линию между рабочими точками
-        for (int j = fixed_to_int(wx1); j <= fixed_to_int(wx2); j++){
+    for (int i = point1.ry(); i < point2.ry(); i++) {
+        int x1 = fixed_to_int(wx1);
+        int x2 = fixed_to_int(wx2);
+
+        QColor startColor = interpolateColor(color1, color3, i - point1.ry(), 0, point3.ry() - point1.ry());
+        QColor endColor = interpolateColor(color1, color2, i - point1.ry(), 0, point2.ry() - point1.ry());
+
+        for (int j = x1; j <= x2; j++) {
+            int current = j - x1;
+            QColor pixelColor = interpolateColor(startColor, endColor, current, 0, x2 - x1);
+            painter->setPen(pixelColor);
             painter->drawPoint(j, i);
         }
+
         wx1 += dx13;
         wx2 += dx12;
     }
-
     // вырожденный случай, когда верхнего полутреугольника нет
     // надо разнести рабочие точки по оси x,
     // т.к. изначально они совпадают
@@ -120,16 +171,31 @@ void TriangleGrad::paint(QPainter *painter, const QStyleOptionGraphicsItem *opti
     if (_dx13 < dx23)
     {
         mySwap(_dx13, dx23);
+        myCswap(color1, color3);
     }
 
     // растеризуем нижний полутреугольник
 
-    for (int i = point2.ry(); i <= point3.ry(); i++){
-        // рисуем горизонтальную линию между рабочими точками
-        for (int j = fixed_to_int(wx1); j <= fixed_to_int(wx2); j++){
-               painter->drawPoint(j,i);
+    for (int i = point2.ry(); i <= point3.ry(); i++) {
+        int x1 = fixed_to_int(wx1);
+        int x2 = fixed_to_int(wx2);
+
+        QColor startColor = interpolateColor(color2, color3, i - point2.ry(), 0, point3.ry() - point2.ry());
+        QColor endColor = interpolateColor(color1, color2, i - point1.ry(), 0, point2.ry() - point1.ry());
+
+        for (int j = x1; j <= x2; j++) {
+            int current = j - x1;
+            QColor pixelColor = interpolateColor(startColor, endColor, current, 0, x2 - x1);
+            painter->setPen(pixelColor);
+            painter->drawPoint(j, i);
         }
+
         wx1 += _dx13;
         wx2 += dx23;
     }
+    Q_UNUSED(option);
+    Q_UNUSED(widget);
 }
+
+
+

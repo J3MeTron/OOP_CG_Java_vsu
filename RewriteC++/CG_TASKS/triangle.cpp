@@ -27,4 +27,6 @@ void Triangle::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
         painter->drawPolygon(polygon);  // Рисуем треугольник по полигональной модели
         Q_UNUSED(option);
         Q_UNUSED(widget);
+
+
 }

@@ -16,7 +16,7 @@ inline fixed int_to_fixed(int value)
 
 inline int fixed_to_int(fixed value)
 {
-    if (value < 0) return (value >> 16 - 1);
+    if (value < 0) return ((value >> 16) - 1);
     if (value >= 0) return (value >> 16);
 }
 
