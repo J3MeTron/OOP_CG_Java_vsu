@@ -286,4 +286,8 @@ CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qpainterpath.h \
  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h \
  C:/msys64/mingw64/include/QtCore/QPoint \
- C:/msys64/mingw64/include/QtCore/qpoint.h
+ C:/msys64/mingw64/include/QtCore/qpoint.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h

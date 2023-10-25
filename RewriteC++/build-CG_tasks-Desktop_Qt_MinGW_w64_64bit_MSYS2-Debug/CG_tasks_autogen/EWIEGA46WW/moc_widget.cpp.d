@@ -272,5 +272,9 @@ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_
   C:/msys64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/msys64/mingw64/x86_64-w64-mingw32/include/wchar.h \
   D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/drawable.h \
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h \
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h \
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h \
   D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h \
-  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h \
+  D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h

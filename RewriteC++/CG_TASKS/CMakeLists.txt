@@ -28,6 +28,16 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 if(ANDROID)
   add_library(CG_tasks SHARED
+      mygraphicsitem.cpp
+      mygraphicsitem.h
+      trianglegrad_alt.cpp
+    trianglegrad_alt.h
+    sun.cpp
+    sun.h
+    rainbow.cpp
+    rainbow.h
+    house.cpp
+    house.h
     trianglegrad.cpp
     trianglegrad.h
     fixed.h
@@ -46,6 +56,16 @@ if(ANDROID)
   )
 else()
   add_executable(CG_tasks
+    mygraphicsitem.cpp
+    mygraphicsitem.h
+      trianglegrad_alt.cpp
+    trianglegrad_alt.h
+    sun.cpp
+    sun.h
+    rainbow.cpp
+    rainbow.h
+    house.cpp
+    house.h
     trianglegrad.cpp
     trianglegrad.h
     fixed.h

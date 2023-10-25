@@ -8,7 +8,7 @@
 class TriangleGrad : public Drawable
 {
 public:
-    TriangleGrad(QPoint p1, QPoint p2, QPoint p3, QColor c1,QColor c2,QColor c3);
+    TriangleGrad(QPoint p1, QPoint p2, QPoint p3, QColor c1,QColor c2, QColor c3);
     ~TriangleGrad();
 
 private:
@@ -26,6 +26,8 @@ protected:
     /* Определяем метод для отрисовки треугольника
      * */
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+
+
 
 
 };

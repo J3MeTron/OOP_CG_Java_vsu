@@ -189,6 +189,30 @@ drawable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/drawable.cpp.s
 .PHONY : drawable.cpp.s
 
+house.obj: house.cpp.obj
+.PHONY : house.obj
+
+# target to build an object file
+house.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.obj
+.PHONY : house.cpp.obj
+
+house.i: house.cpp.i
+.PHONY : house.i
+
+# target to preprocess a source file
+house.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.i
+.PHONY : house.cpp.i
+
+house.s: house.cpp.s
+.PHONY : house.s
+
+# target to generate assembly for a file
+house.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.s
+.PHONY : house.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -236,6 +260,78 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+mygraphicsitem.obj: mygraphicsitem.cpp.obj
+.PHONY : mygraphicsitem.obj
+
+# target to build an object file
+mygraphicsitem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.obj
+.PHONY : mygraphicsitem.cpp.obj
+
+mygraphicsitem.i: mygraphicsitem.cpp.i
+.PHONY : mygraphicsitem.i
+
+# target to preprocess a source file
+mygraphicsitem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.i
+.PHONY : mygraphicsitem.cpp.i
+
+mygraphicsitem.s: mygraphicsitem.cpp.s
+.PHONY : mygraphicsitem.s
+
+# target to generate assembly for a file
+mygraphicsitem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.s
+.PHONY : mygraphicsitem.cpp.s
+
+rainbow.obj: rainbow.cpp.obj
+.PHONY : rainbow.obj
+
+# target to build an object file
+rainbow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.obj
+.PHONY : rainbow.cpp.obj
+
+rainbow.i: rainbow.cpp.i
+.PHONY : rainbow.i
+
+# target to preprocess a source file
+rainbow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.i
+.PHONY : rainbow.cpp.i
+
+rainbow.s: rainbow.cpp.s
+.PHONY : rainbow.s
+
+# target to generate assembly for a file
+rainbow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.s
+.PHONY : rainbow.cpp.s
+
+sun.obj: sun.cpp.obj
+.PHONY : sun.obj
+
+# target to build an object file
+sun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.obj
+.PHONY : sun.cpp.obj
+
+sun.i: sun.cpp.i
+.PHONY : sun.i
+
+# target to preprocess a source file
+sun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.i
+.PHONY : sun.cpp.i
+
+sun.s: sun.cpp.s
+.PHONY : sun.s
+
+# target to generate assembly for a file
+sun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.s
+.PHONY : sun.cpp.s
 
 triangle.obj: triangle.cpp.obj
 .PHONY : triangle.obj
@@ -285,6 +381,30 @@ trianglegrad.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.s
 .PHONY : trianglegrad.cpp.s
 
+trianglegrad_alt.obj: trianglegrad_alt.cpp.obj
+.PHONY : trianglegrad_alt.obj
+
+# target to build an object file
+trianglegrad_alt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.obj
+.PHONY : trianglegrad_alt.cpp.obj
+
+trianglegrad_alt.i: trianglegrad_alt.cpp.i
+.PHONY : trianglegrad_alt.i
+
+# target to preprocess a source file
+trianglegrad_alt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.i
+.PHONY : trianglegrad_alt.cpp.i
+
+trianglegrad_alt.s: trianglegrad_alt.cpp.s
+.PHONY : trianglegrad_alt.s
+
+# target to generate assembly for a file
+trianglegrad_alt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.s
+.PHONY : trianglegrad_alt.cpp.s
+
 widget.obj: widget.cpp.obj
 .PHONY : widget.obj
 
@@ -325,18 +445,33 @@ help:
 	@echo ... drawable.obj
 	@echo ... drawable.i
 	@echo ... drawable.s
+	@echo ... house.obj
+	@echo ... house.i
+	@echo ... house.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... mygraphicsitem.obj
+	@echo ... mygraphicsitem.i
+	@echo ... mygraphicsitem.s
+	@echo ... rainbow.obj
+	@echo ... rainbow.i
+	@echo ... rainbow.s
+	@echo ... sun.obj
+	@echo ... sun.i
+	@echo ... sun.s
 	@echo ... triangle.obj
 	@echo ... triangle.i
 	@echo ... triangle.s
 	@echo ... trianglegrad.obj
 	@echo ... trianglegrad.i
 	@echo ... trianglegrad.s
+	@echo ... trianglegrad_alt.obj
+	@echo ... trianglegrad_alt.i
+	@echo ... trianglegrad_alt.s
 	@echo ... widget.obj
 	@echo ... widget.i
 	@echo ... widget.s

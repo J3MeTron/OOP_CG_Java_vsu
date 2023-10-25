@@ -86,9 +86,33 @@
 			null
 		],
 		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h",
+			"MU",
+			"EWIEGA46WW/moc_house.cpp",
+			null
+		],
+		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.h",
+			"MU",
+			"EWIEGA46WW/moc_mygraphicsitem.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h",
+			"MU",
+			"EWIEGA46WW/moc_rainbow.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h",
+			"MU",
+			"EWIEGA46WW/moc_sun.cpp",
 			null
 		],
 		[
@@ -101,6 +125,12 @@
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h",
 			"MU",
 			"EWIEGA46WW/moc_trianglegrad.cpp",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h",
+			"MU",
+			"EWIEGA46WW/moc_trianglegrad_alt.cpp",
 			null
 		],
 		[
@@ -168,6 +198,11 @@
 			null
 		],
 		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/main.cpp",
 			"MU",
 			null
@@ -178,12 +213,32 @@
 			null
 		],
 		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.cpp",
 			"MU",
 			null
 		],
 		[
 			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.cpp",
 			"MU",
 			null
 		],

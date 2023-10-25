@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "CG_tasks_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"
-		},
-		{
-			"name" : "CG_tasks_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "CG_tasks_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -91,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"
+			"value" : "d:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -599,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks"
+			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/QtTestsCG"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -611,7 +575,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/CG_tasks"
+			"value" : "C:/Program Files (x86)/TriangleTests"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -843,7 +807,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CG_tasks"
+			"value" : "TriangleTests"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1274,28 +1238,52 @@
 			"value" : "C:/msys64/mingw64/lib/cmake/Qt5Gui"
 		},
 		{
-			"name" : "Qt5Widgets_DIR",
+			"name" : "Qt5Test_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5Widgets."
+					"value" : "The directory containing a CMake configuration file for Qt5Test."
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt5Widgets"
+			"value" : "C:/msys64/mingw64/lib/cmake/Qt5Test"
 		},
 		{
-			"name" : "Qt5_DIR",
+			"name" : "TriangleTests_BINARY_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5."
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/Qt5"
+			"type" : "STATIC",
+			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug"
+		},
+		{
+			"name" : "TriangleTests_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "TriangleTests_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/QtTestsCG"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

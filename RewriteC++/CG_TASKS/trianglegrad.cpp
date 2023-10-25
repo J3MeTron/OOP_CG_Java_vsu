@@ -67,12 +67,41 @@ QColor interpolateColor(const QColor &startColor, const QColor &endColor, int cu
     return QColor(r, g, b);
 }
 
+#include <QColor>
+#include <QPoint>
+
+QColor ShadeBackgroundPixel(QPoint& point1, QPoint& point2, QPoint& point3, const QColor& colorA, const QColor& colorB, const QColor& colorC)
+{
+    QColor pixelColor(Qt::white); // Присваиваем цвет фона - белый
+
+    double l1, l2, l3;
+
+        l1 = ((point2.ry() - point3.ry()) * (point1.rx() - point3.rx()) + (point3.rx() - point2.rx()) * (point1.ry() - point3.ry())) /
+            ((point2.ry() - point3.ry()) * (point1.rx() - point3.rx()) + (point3.rx() - point2.rx()) * (point1.ry() - point3.ry()));
+
+        l2 = ((point3.ry() - point1.ry()) * (point1.rx() - point3.rx()) + (point1.rx() - point3.rx()) * (point1.ry() - point3.ry())) /
+            ((point2.ry() - point3.ry()) * (point1.rx() - point3.rx()) + (point3.rx() - point2.rx()) * (point1.ry() - point3.ry()));
+
+        l3 = 1 - l1 - l2;
+
+        if (l1 >= 0 && l1 <= 1 && l2 >= 0 && l2 <= 1 && l3 >= 0 && l3 <= 1)
+        {
+            int red = l1 * colorA.red() + l2 * colorB.red() + l3 * colorC.red();
+            int green = l1 * colorA.green() + l2 * colorB.green() + l3 * colorC.green();
+            int blue = l1 * colorA.blue() + l2 * colorB.blue() + l3 * colorC.blue();
+
+            pixelColor = QColor(red, green, blue);
+        }
+
+    return pixelColor;
+}
+
+
 
 void TriangleGrad::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     // Упорядочиваем точки p1(x1, y1),
     // p2(x2, y2), p3(x3, y3)
-    int test = point2.ry();
     if (point2.ry() < point1.ry()) {
         myQswap(point1, point2);
         myCswap(color1, color2);
@@ -196,6 +225,5 @@ void TriangleGrad::paint(QPainter *painter, const QStyleOptionGraphicsItem *opti
     Q_UNUSED(option);
     Q_UNUSED(widget);
 }
-
 
 

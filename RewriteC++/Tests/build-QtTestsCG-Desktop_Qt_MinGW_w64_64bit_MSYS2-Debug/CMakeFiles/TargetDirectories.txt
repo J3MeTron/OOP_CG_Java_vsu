@@ -1,0 +1,5 @@
+D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/TriangleTests.dir
+D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/test.dir
+D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/edit_cache.dir
+D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/rebuild_cache.dir
+D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/Tests/build-QtTestsCG-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CMakeFiles/TriangleTests_autogen.dir

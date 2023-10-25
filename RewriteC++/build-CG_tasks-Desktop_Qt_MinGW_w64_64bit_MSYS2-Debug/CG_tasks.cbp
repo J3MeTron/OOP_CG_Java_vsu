@@ -126,6 +126,12 @@
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/fixed.h">
 			<Option target="CG_tasks"/>
 		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h">
+			<Option target="CG_tasks"/>
+		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/main.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
@@ -138,6 +144,24 @@
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.ui">
 			<Option target="CG_tasks"/>
 		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.h">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h">
+			<Option target="CG_tasks"/>
+		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
@@ -148,6 +172,12 @@
 			<Option target="CG_tasks"/>
 		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.cpp">
+			<Option target="CG_tasks"/>
+		</Unit>
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h">
 			<Option target="CG_tasks"/>
 		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.cpp">

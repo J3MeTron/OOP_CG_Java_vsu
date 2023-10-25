@@ -18,7 +18,7 @@ protected:
                                      * */
     /* Определяем метод для отрисовки треугольника
      * */
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 };
 #endif // DRAWABLE_H
 
