@@ -1,6 +1,6 @@
 CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.obj: \
  D:\Education\JavaVsu\OOP_CG_Java_vsu\RewriteC++\build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CG_tasks_autogen\mocs_compilation.cpp \
- D:\Education\JavaVsu\OOP_CG_Java_vsu\RewriteC++\build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CG_tasks_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ D:\Education\JavaVsu\OOP_CG_Java_vsu\RewriteC++\build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CG_tasks_autogen\UVLADIE3JM/moc_mainwindow.cpp \
  C:/msys64/mingw64/include/c++/10.1.0/memory \
  C:/msys64/mingw64/include/c++/10.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/10.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -107,7 +107,7 @@ CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/c++/10.1.0/bits/atomic_lockfree_defines.h \
  C:/msys64/mingw64/include/c++/10.1.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/10.1.0/cstdint \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/mainwindow.h \
  C:/msys64/mingw64/include/QtWidgets/QMainWindow \
  C:/msys64/mingw64/include/QtWidgets/qmainwindow.h \
  C:/msys64/mingw64/include/QtWidgets/qtwidgetsglobal.h \
@@ -267,27 +267,26 @@ CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.obj: \
  C:/msys64/mingw64/include/QtGui/qkeysequence.h \
  C:/msys64/mingw64/include/QtWidgets/qtabwidget.h \
  C:/msys64/mingw64/include/QtGui/qicon.h \
- D:\Education\JavaVsu\OOP_CG_Java_vsu\RewriteC++\build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CG_tasks_autogen\EWIEGA46WW/moc_widget.cpp \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.h \
+ D:\Education\JavaVsu\OOP_CG_Java_vsu\RewriteC++\build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug\CG_tasks_autogen\UVLADIE3JM/moc_widget.cpp \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/widget.h \
  C:/msys64/mingw64/include/QtWidgets/QWidget \
  C:/msys64/mingw64/include/QtWidgets/qwidget.h \
  C:/msys64/mingw64/include/QtWidgets/QGraphicsScene \
  C:/msys64/mingw64/include/QtWidgets/qgraphicsscene.h \
  C:/msys64/mingw64/include/QtGui/qpen.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/triangle.h \
  C:/msys64/mingw64/include/QtGui/QPainter \
  C:/msys64/mingw64/include/QtGui/qpainter.h \
  C:/msys64/mingw64/include/QtGui/qtextoption.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/drawable.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/drawable.h \
  C:/msys64/mingw64/include/QtWidgets/QGraphicsItem \
  C:/msys64/mingw64/include/QtWidgets/qgraphicsitem.h \
  C:/msys64/mingw64/include/QtCore/qvariant.h \
  C:/msys64/mingw64/include/QtCore/qmap.h \
  C:/msys64/mingw64/include/QtGui/qpainterpath.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/house.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/rainbow.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/sun.h \
+ D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/trianglegrad_alt.h \
  C:/msys64/mingw64/include/QtCore/QPoint \
- C:/msys64/mingw64/include/QtCore/qpoint.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h \
- D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h
+ C:/msys64/mingw64/include/QtCore/qpoint.h

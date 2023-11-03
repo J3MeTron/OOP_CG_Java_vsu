@@ -114,85 +114,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/Triangle_3.pro">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/house.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/drawable.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/house.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/drawable.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/rainbow.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/fixed.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/rainbow.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/sun.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/house.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/sun.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/main.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/triangle.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/triangle.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/trianglegrad_alt.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mainwindow.ui">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/objs/trianglegrad_alt.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/drawable.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/mygraphicsitem.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/drawable.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/main.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/rainbow.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/mainwindow.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.cpp">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/mainwindow.h">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/sun.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/widget.cpp">
 			<Option target="CG_tasks"/>
 		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.cpp">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/triangle.h">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.cpp">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad.h">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.cpp">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/trianglegrad_alt.h">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.cpp">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.h">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/widget.ui">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CG_tasks_autogen/include/ui_mainwindow.h">
-			<Option target="CG_tasks"/>
-		</Unit>
-		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CG_tasks_autogen/include/ui_widget.h">
+		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/CG_tasks/src/widget.h">
 			<Option target="CG_tasks"/>
 		</Unit>
 		<Unit filename="D:/Education/JavaVsu/OOP_CG_Java_vsu/RewriteC++/build-CG_tasks-Desktop_Qt_MinGW_w64_64bit_MSYS2-Debug/CG_tasks_autogen/mocs_compilation.cpp">

@@ -26,62 +26,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
+file(GLOB SOURCES_OBJ "Objs/*.cpp" "Objs/*.h")
+file(GLOB SOURCES_SRC "src/*.cpp" "src/*.h")
+
 if(ANDROID)
-  add_library(CG_tasks SHARED
-      mygraphicsitem.cpp
-      mygraphicsitem.h
-      trianglegrad_alt.cpp
-    trianglegrad_alt.h
-    sun.cpp
-    sun.h
-    rainbow.cpp
-    rainbow.h
-    house.cpp
-    house.h
-    trianglegrad.cpp
-    trianglegrad.h
-    fixed.h
-    drawable.cpp
-    drawable.h
-    triangle.cpp
-    triangle.h
-    Triangle_3.pro
-    widget.cpp
-    widget.h
-    widget.ui
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
-  )
+  add_library(CG_tasks SHARED ${SOURCES_OBJ} ${SOURCES_SRC})
 else()
-  add_executable(CG_tasks
-    mygraphicsitem.cpp
-    mygraphicsitem.h
-      trianglegrad_alt.cpp
-    trianglegrad_alt.h
-    sun.cpp
-    sun.h
-    rainbow.cpp
-    rainbow.h
-    house.cpp
-    house.h
-    trianglegrad.cpp
-    trianglegrad.h
-    fixed.h
-    drawable.cpp
-    drawable.h
-    triangle.cpp
-    triangle.h
-    Triangle_3.pro
-    widget.cpp
-    widget.h
-    widget.ui
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
-  )
+  add_executable(CG_tasks ${SOURCES_OBJ} ${SOURCES_SRC})
+
 endif()
 
 target_link_libraries(CG_tasks PRIVATE Qt5::Widgets)

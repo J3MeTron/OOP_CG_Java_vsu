@@ -165,269 +165,221 @@ CG_tasks_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/CG_tasks_autogen/mocs_compilation.cpp.s
 .PHONY : CG_tasks_autogen/mocs_compilation.cpp.s
 
-drawable.obj: drawable.cpp.obj
-.PHONY : drawable.obj
+objs/house.obj: objs/house.cpp.obj
+.PHONY : objs/house.obj
 
 # target to build an object file
-drawable.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/drawable.cpp.obj
-.PHONY : drawable.cpp.obj
+objs/house.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/house.cpp.obj
+.PHONY : objs/house.cpp.obj
 
-drawable.i: drawable.cpp.i
-.PHONY : drawable.i
+objs/house.i: objs/house.cpp.i
+.PHONY : objs/house.i
 
 # target to preprocess a source file
-drawable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/drawable.cpp.i
-.PHONY : drawable.cpp.i
+objs/house.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/house.cpp.i
+.PHONY : objs/house.cpp.i
 
-drawable.s: drawable.cpp.s
-.PHONY : drawable.s
+objs/house.s: objs/house.cpp.s
+.PHONY : objs/house.s
 
 # target to generate assembly for a file
-drawable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/drawable.cpp.s
-.PHONY : drawable.cpp.s
+objs/house.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/house.cpp.s
+.PHONY : objs/house.cpp.s
 
-house.obj: house.cpp.obj
-.PHONY : house.obj
+objs/rainbow.obj: objs/rainbow.cpp.obj
+.PHONY : objs/rainbow.obj
 
 # target to build an object file
-house.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.obj
-.PHONY : house.cpp.obj
+objs/rainbow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/rainbow.cpp.obj
+.PHONY : objs/rainbow.cpp.obj
 
-house.i: house.cpp.i
-.PHONY : house.i
+objs/rainbow.i: objs/rainbow.cpp.i
+.PHONY : objs/rainbow.i
 
 # target to preprocess a source file
-house.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.i
-.PHONY : house.cpp.i
+objs/rainbow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/rainbow.cpp.i
+.PHONY : objs/rainbow.cpp.i
 
-house.s: house.cpp.s
-.PHONY : house.s
+objs/rainbow.s: objs/rainbow.cpp.s
+.PHONY : objs/rainbow.s
 
 # target to generate assembly for a file
-house.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/house.cpp.s
-.PHONY : house.cpp.s
+objs/rainbow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/rainbow.cpp.s
+.PHONY : objs/rainbow.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+objs/sun.obj: objs/sun.cpp.obj
+.PHONY : objs/sun.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+objs/sun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/sun.cpp.obj
+.PHONY : objs/sun.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+objs/sun.i: objs/sun.cpp.i
+.PHONY : objs/sun.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/main.cpp.i
-.PHONY : main.cpp.i
+objs/sun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/sun.cpp.i
+.PHONY : objs/sun.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+objs/sun.s: objs/sun.cpp.s
+.PHONY : objs/sun.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/main.cpp.s
-.PHONY : main.cpp.s
+objs/sun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/sun.cpp.s
+.PHONY : objs/sun.cpp.s
 
-mainwindow.obj: mainwindow.cpp.obj
-.PHONY : mainwindow.obj
+objs/triangle.obj: objs/triangle.cpp.obj
+.PHONY : objs/triangle.obj
 
 # target to build an object file
-mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mainwindow.cpp.obj
-.PHONY : mainwindow.cpp.obj
+objs/triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/triangle.cpp.obj
+.PHONY : objs/triangle.cpp.obj
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+objs/triangle.i: objs/triangle.cpp.i
+.PHONY : objs/triangle.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+objs/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/triangle.cpp.i
+.PHONY : objs/triangle.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+objs/triangle.s: objs/triangle.cpp.s
+.PHONY : objs/triangle.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+objs/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/triangle.cpp.s
+.PHONY : objs/triangle.cpp.s
 
-mygraphicsitem.obj: mygraphicsitem.cpp.obj
-.PHONY : mygraphicsitem.obj
+objs/trianglegrad_alt.obj: objs/trianglegrad_alt.cpp.obj
+.PHONY : objs/trianglegrad_alt.obj
 
 # target to build an object file
-mygraphicsitem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.obj
-.PHONY : mygraphicsitem.cpp.obj
+objs/trianglegrad_alt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/trianglegrad_alt.cpp.obj
+.PHONY : objs/trianglegrad_alt.cpp.obj
 
-mygraphicsitem.i: mygraphicsitem.cpp.i
-.PHONY : mygraphicsitem.i
+objs/trianglegrad_alt.i: objs/trianglegrad_alt.cpp.i
+.PHONY : objs/trianglegrad_alt.i
 
 # target to preprocess a source file
-mygraphicsitem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.i
-.PHONY : mygraphicsitem.cpp.i
+objs/trianglegrad_alt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/trianglegrad_alt.cpp.i
+.PHONY : objs/trianglegrad_alt.cpp.i
 
-mygraphicsitem.s: mygraphicsitem.cpp.s
-.PHONY : mygraphicsitem.s
+objs/trianglegrad_alt.s: objs/trianglegrad_alt.cpp.s
+.PHONY : objs/trianglegrad_alt.s
 
 # target to generate assembly for a file
-mygraphicsitem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/mygraphicsitem.cpp.s
-.PHONY : mygraphicsitem.cpp.s
+objs/trianglegrad_alt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/objs/trianglegrad_alt.cpp.s
+.PHONY : objs/trianglegrad_alt.cpp.s
 
-rainbow.obj: rainbow.cpp.obj
-.PHONY : rainbow.obj
+src/drawable.obj: src/drawable.cpp.obj
+.PHONY : src/drawable.obj
 
 # target to build an object file
-rainbow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.obj
-.PHONY : rainbow.cpp.obj
+src/drawable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/drawable.cpp.obj
+.PHONY : src/drawable.cpp.obj
 
-rainbow.i: rainbow.cpp.i
-.PHONY : rainbow.i
+src/drawable.i: src/drawable.cpp.i
+.PHONY : src/drawable.i
 
 # target to preprocess a source file
-rainbow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.i
-.PHONY : rainbow.cpp.i
+src/drawable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/drawable.cpp.i
+.PHONY : src/drawable.cpp.i
 
-rainbow.s: rainbow.cpp.s
-.PHONY : rainbow.s
+src/drawable.s: src/drawable.cpp.s
+.PHONY : src/drawable.s
 
 # target to generate assembly for a file
-rainbow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/rainbow.cpp.s
-.PHONY : rainbow.cpp.s
+src/drawable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/drawable.cpp.s
+.PHONY : src/drawable.cpp.s
 
-sun.obj: sun.cpp.obj
-.PHONY : sun.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-sun.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.obj
-.PHONY : sun.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-sun.i: sun.cpp.i
-.PHONY : sun.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-sun.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.i
-.PHONY : sun.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-sun.s: sun.cpp.s
-.PHONY : sun.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-sun.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/sun.cpp.s
-.PHONY : sun.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-triangle.obj: triangle.cpp.obj
-.PHONY : triangle.obj
+src/mainwindow.obj: src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.obj
 
 # target to build an object file
-triangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/triangle.cpp.obj
-.PHONY : triangle.cpp.obj
+src/mainwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.cpp.obj
 
-triangle.i: triangle.cpp.i
-.PHONY : triangle.i
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
 
 # target to preprocess a source file
-triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/triangle.cpp.i
-.PHONY : triangle.cpp.i
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
 
-triangle.s: triangle.cpp.s
-.PHONY : triangle.s
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
 
 # target to generate assembly for a file
-triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/triangle.cpp.s
-.PHONY : triangle.cpp.s
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
 
-trianglegrad.obj: trianglegrad.cpp.obj
-.PHONY : trianglegrad.obj
+src/widget.obj: src/widget.cpp.obj
+.PHONY : src/widget.obj
 
 # target to build an object file
-trianglegrad.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.obj
-.PHONY : trianglegrad.cpp.obj
+src/widget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/widget.cpp.obj
+.PHONY : src/widget.cpp.obj
 
-trianglegrad.i: trianglegrad.cpp.i
-.PHONY : trianglegrad.i
-
-# target to preprocess a source file
-trianglegrad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.i
-.PHONY : trianglegrad.cpp.i
-
-trianglegrad.s: trianglegrad.cpp.s
-.PHONY : trianglegrad.s
-
-# target to generate assembly for a file
-trianglegrad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad.cpp.s
-.PHONY : trianglegrad.cpp.s
-
-trianglegrad_alt.obj: trianglegrad_alt.cpp.obj
-.PHONY : trianglegrad_alt.obj
-
-# target to build an object file
-trianglegrad_alt.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.obj
-.PHONY : trianglegrad_alt.cpp.obj
-
-trianglegrad_alt.i: trianglegrad_alt.cpp.i
-.PHONY : trianglegrad_alt.i
+src/widget.i: src/widget.cpp.i
+.PHONY : src/widget.i
 
 # target to preprocess a source file
-trianglegrad_alt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.i
-.PHONY : trianglegrad_alt.cpp.i
+src/widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/widget.cpp.i
+.PHONY : src/widget.cpp.i
 
-trianglegrad_alt.s: trianglegrad_alt.cpp.s
-.PHONY : trianglegrad_alt.s
-
-# target to generate assembly for a file
-trianglegrad_alt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/trianglegrad_alt.cpp.s
-.PHONY : trianglegrad_alt.cpp.s
-
-widget.obj: widget.cpp.obj
-.PHONY : widget.obj
-
-# target to build an object file
-widget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/widget.cpp.obj
-.PHONY : widget.cpp.obj
-
-widget.i: widget.cpp.i
-.PHONY : widget.i
-
-# target to preprocess a source file
-widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/widget.cpp.i
-.PHONY : widget.cpp.i
-
-widget.s: widget.cpp.s
-.PHONY : widget.s
+src/widget.s: src/widget.cpp.s
+.PHONY : src/widget.s
 
 # target to generate assembly for a file
-widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/widget.cpp.s
-.PHONY : widget.cpp.s
+src/widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CG_tasks.dir\build.make CMakeFiles/CG_tasks.dir/src/widget.cpp.s
+.PHONY : src/widget.cpp.s
 
 # Help Target
 help:
@@ -442,39 +394,33 @@ help:
 	@echo ... CG_tasks_autogen/mocs_compilation.obj
 	@echo ... CG_tasks_autogen/mocs_compilation.i
 	@echo ... CG_tasks_autogen/mocs_compilation.s
-	@echo ... drawable.obj
-	@echo ... drawable.i
-	@echo ... drawable.s
-	@echo ... house.obj
-	@echo ... house.i
-	@echo ... house.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... mainwindow.obj
-	@echo ... mainwindow.i
-	@echo ... mainwindow.s
-	@echo ... mygraphicsitem.obj
-	@echo ... mygraphicsitem.i
-	@echo ... mygraphicsitem.s
-	@echo ... rainbow.obj
-	@echo ... rainbow.i
-	@echo ... rainbow.s
-	@echo ... sun.obj
-	@echo ... sun.i
-	@echo ... sun.s
-	@echo ... triangle.obj
-	@echo ... triangle.i
-	@echo ... triangle.s
-	@echo ... trianglegrad.obj
-	@echo ... trianglegrad.i
-	@echo ... trianglegrad.s
-	@echo ... trianglegrad_alt.obj
-	@echo ... trianglegrad_alt.i
-	@echo ... trianglegrad_alt.s
-	@echo ... widget.obj
-	@echo ... widget.i
-	@echo ... widget.s
+	@echo ... objs/house.obj
+	@echo ... objs/house.i
+	@echo ... objs/house.s
+	@echo ... objs/rainbow.obj
+	@echo ... objs/rainbow.i
+	@echo ... objs/rainbow.s
+	@echo ... objs/sun.obj
+	@echo ... objs/sun.i
+	@echo ... objs/sun.s
+	@echo ... objs/triangle.obj
+	@echo ... objs/triangle.i
+	@echo ... objs/triangle.s
+	@echo ... objs/trianglegrad_alt.obj
+	@echo ... objs/trianglegrad_alt.i
+	@echo ... objs/trianglegrad_alt.s
+	@echo ... src/drawable.obj
+	@echo ... src/drawable.i
+	@echo ... src/drawable.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/mainwindow.obj
+	@echo ... src/mainwindow.i
+	@echo ... src/mainwindow.s
+	@echo ... src/widget.obj
+	@echo ... src/widget.i
+	@echo ... src/widget.s
 .PHONY : help
 
 
